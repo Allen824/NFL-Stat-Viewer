@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>  
+        <link rel="stylesheet" href="style.css">
+        <script src="js/script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div class="header">
+            <div>Team Viewer</div>
+        </div>
+        <div class="content">
+            <div class="directions">Choose a team to see thier stats for the 2023 NFL season.</div>
+            <div class="statDisplay" style="display: none">
+                <div class="teamHeader">
+                    <div class="teamName">Dolphins</div>
+                    <div class="teamLogo"><img id="logo" src="" alt="team logo"></div>
+                </div>
+                <div class="teamStats">
+                    <div class="conferenceName">AFC</div>
+                    <div class="record">1 2 3</div>
+                    <div class="divisionName">North</div>        
+                    <div class="streak">L1</div>
+                    <div class="currentPosition">1</div>
+                    <div class="points">53</div>
+                </div>
+            </div>
+
+            <div class="chooseTeam">
+
+                <div class="dolphins" onclick="getStats(0)">Miami Dolphins</div>
+                <div class="bills" onclick="getStats(1)">Buffalo Bills</div>
+                <div class="jets" onclick="getStats(2)">New York Jets</div>
+                <div class="patriots" onclick="getStats(3)">New England Patriots</div>
+
+                <div class="ravens" onclick="getStats(4)">Baltimore Ravens</div>
+                <div class="steelers" onclick="getStats(5)">Pittsburgh Steelers</div>
+                <div class="browns" onclick="getStats(6)">Cleveland Browns</div>
+                <div class="bengals" onclick="getStats(7)">Cincinnati Bengals</div>
+
+                <div class="jaguars" onclick="getStats(8)">Jacksonville Jaguars</div>
+                <div class="texans" onclick="getStats(9)">Houston Texans</div>
+                <div class="colts" onclick="getStats(10)">Indianapolis Colts</div>
+                <div class="titans" onclick="getStats(11)">Tennessee Titans</div>
+
+                <div class="chiefs" onclick="getStats(12)">Kansas City Chiefs</div>
+                <div class="chargers" onclick="getStats(13)">Los Angeles Chargers</div>
+                <div class="raiders" onclick="getStats(14)">Las Vegas Raiders</div>
+                <div class="broncos" onclick="getStats(15)">Denver Broncos</div>
+
+                <div class="eagles" onclick="getStats(16)">Philadelphia Eagles</div>
+                <div class="cowboys" onclick="getStats(17)">Dallas Cowboys</div>
+                <div class="commanders" onclick="getStats(18)">Washington Commanders</div>
+                <div class="giants" onclick="getStats(19)">New York Giants</div>
+
+                <div class="lions" onclick="getStats(20)">Detroit Lions</div>
+                <div class="vikings" onclick="getStats(21)">Minnesota Vikings</div>
+                <div class="packers" onclick="getStats(22)">Green Bay Packers</div>
+                <div class="bears" onclick="getStats(23)">Chicago Bears</div>
+
+                <div class="saints" onclick="getStats(24)">New Orleans Saints</div>
+                <div class="falcons" onclick="getStats(25)">Atlanta Falcons</div>
+                <div class="buccaneers" onclick="getStats(26)">Tampa Bay Buccaneers</div>
+                <div class="panthers" onclick="getStats(27)">Carolina Panthers</div>
+
+                <div class="ers" onclick="getStats(28)">San Francisco 49ers</div>
+                <div class="seahawks" onclick="getStats(29)">Seattle Seahawks</div>
+                <div class="rams" onclick="getStats(30)">Los Angeles Rams</div>
+                <div class="cardinals" onclick="getStats(31)">Arizona Cardinals</div>
+
+                
+            </div>
+        </div>
+        <div class="footer">
+            2023 Allen Kagle. All rights reserved.
+        </div>
+    </body>
+</html>

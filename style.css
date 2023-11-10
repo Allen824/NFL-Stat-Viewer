@@ -1,0 +1,249 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #282828;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    padding: 0px;
+    background-color: #3f3f3f;
+    
+}
+
+.content {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.directions {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+
+.statDisplay {
+    margin: 0 auto;
+    width: 70%;
+    background-color: #3f3f3f;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+
+
+.teamHeader {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative; 
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.teamStats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    font-size: 1.1 rem;
+    padding: 50px;
+}
+
+
+.teamHeader::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff; 
+    position: absolute; 
+    bottom: -5px; 
+}
+
+.chooseTeam {
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    grid-template-columns: repeat(4, 1fr); 
+    padding-top: 5vh;
+}
+
+.chooseTeam div {
+    padding: 2rem;
+    display: flex;
+    text-shadow: 1px 1px 2px black;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #3f3f3f;
+}
+
+/* Team colors */
+
+/* AFC East */
+
+.dolphins {
+    background: linear-gradient(to bottom right, #008E97, #3f3f3f 40%);
+}
+
+.bills {
+    background: linear-gradient(to bottom right, #00338D, #3f3f3f 40%);
+    
+}
+
+.patriots {
+    background: linear-gradient(to bottom right, #002244, #3f3f3f 40%);
+}
+
+.jets {
+    background: linear-gradient(to bottom right, #125740, #3f3f3f 40%);
+}
+
+/* AFC North */
+
+.ravens {
+    background: linear-gradient(to bottom right, #241773, #3f3f3f 40%);
+}
+
+.bengals {
+    background: linear-gradient(to bottom right, #FB4F14, #3f3f3f 40%);
+}
+
+.browns {
+    background: linear-gradient(to bottom right, #FB4F14, #3f3f3f 40%);
+}
+
+.steelers {
+    background: linear-gradient(to bottom right, #FFB612, #3f3f3f 40%);
+}
+
+/* AFC South */
+
+.texans {
+    background: linear-gradient(to bottom right, #03202F, #3f3f3f 40%);
+}
+
+.colts {
+    background: linear-gradient(to bottom right, #002C5F, #3f3f3f 40%);
+}
+
+.jaguars {
+    background: linear-gradient(to bottom right, #006778, #3f3f3f 40%);
+}
+
+.titans {
+    background: linear-gradient(to bottom right, #0C2340, #3f3f3f 40%);
+}
+
+/* AFC West */
+
+.broncos {
+    background: linear-gradient(to bottom right, #FB4F14, #3f3f3f 40%);
+}
+
+.chiefs {
+    background: linear-gradient(to bottom right, #E31837, #3f3f3f 40%);
+}
+
+.raiders {
+    background: linear-gradient(to bottom right, #000000, #3f3f3f 40%);
+}
+
+.chargers {
+    background: linear-gradient(to bottom right, #0072CE, #3f3f3f 40%);
+}
+
+/* NFC East */
+
+.cowboys {
+    background: linear-gradient(to bottom right, #002244, #3f3f3f 40%);
+}
+
+.giants {
+    background: linear-gradient(to bottom right, #0B2265, #3f3f3f 40%);
+}
+
+.commanders {
+    background: linear-gradient(to bottom right, #773141, #3f3f3f 40%);
+}
+
+.eagles {
+    background: linear-gradient(to bottom right, #004C54, #3f3f3f 40%);
+}
+
+/* NFC North */ 
+
+.bears {
+    background: linear-gradient(to bottom right, #0B162A, #3f3f3f 40%);
+}
+
+.lions {
+    background: linear-gradient(to bottom right, #0076B6, #3f3f3f 40%);
+}
+
+.packers {
+    background: linear-gradient(to bottom right, #203731, #3f3f3f 40%);
+}
+
+.vikings {
+    background: linear-gradient(to bottom right, #4F2683, #3f3f3f 40%);
+}
+
+/* NFC South */ 
+
+.falcons {
+    background: linear-gradient(to bottom right, #A71930, #3f3f3f 40%);
+}
+
+.panthers {
+    background: linear-gradient(to bottom right, #0085CA, #3f3f3f 40%);
+}
+
+.saints {
+    background: linear-gradient(to bottom right, #D3BC8D, #3f3f3f 40%);
+}
+
+.buccaneers {
+    background: linear-gradient(to bottom right, #D50A0A, #3f3f3f 40%);
+}
+
+/* NFC West */
+
+.cardinals {
+    background: linear-gradient(to bottom right, #97233F, #3f3f3f 40%);
+}
+
+.rams {
+    background: linear-gradient(to bottom right, #002244, #3f3f3f 40%);
+}
+
+.ers {
+    background: linear-gradient(to bottom right, #AA0000, #3f3f3f 40%);
+}
+
+.seahawks {
+    background: linear-gradient(to bottom right, #002244, #3f3f3f 40%);
+}
+
+/* end of teams */
